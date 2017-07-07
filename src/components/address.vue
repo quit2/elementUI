@@ -180,7 +180,6 @@
 import AXIOS from '../axios/axios'
 const Axios = new AXIOS();
 export default {
-  name: 'address',
   data () {
     return {
       limitNum: 3,

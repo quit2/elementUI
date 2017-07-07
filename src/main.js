@@ -6,8 +6,13 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
+import TreeView from 'vue-json-tree-view'
+import VueDragTree from 'vue-drag-tree'
+
 Vue.use(ElementUI)
+Vue.use(TreeView)
 Vue.config.productionTip = false
+Vue.component('vue-drag-tree', VueDragTree)
 
 /* eslint-disable no-new */
 new Vue({

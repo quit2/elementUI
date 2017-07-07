@@ -156,7 +156,6 @@
 import AXIOS from '../axios/axios'
 const Axios = new AXIOS();
 export default {
-  name: 'address',
   data () {
     return {
       productList: [],
